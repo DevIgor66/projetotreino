@@ -1,0 +1,118 @@
+.planos-bg {
+  
+  box-shadow: 0.5px -0.5px 5px rgb(213, 213, 213);
+  margin-top: 50px;
+}
+
+.planos-titulo {
+  display: grid;
+  justify-items: center;
+  font-family: "Poppins";
+  margin-top: 10px;
+  color: #747474;
+}
+.planos {
+  display: grid;
+  gap: 40px;
+  grid-template-columns: repeat(3, 1fr);
+  margin-top: 40px;
+}
+
+.planos-titulo span {
+  text-transform: uppercase;
+  font-size: 12px;
+  font-weight: 600;
+  color: rgb(42, 146, 236);
+}
+
+.planos-cards {
+  display: grid;
+  background: #fff;
+  font-family: "Poppins";
+  padding: 32px;
+  border-radius: 10px;
+  box-shadow: 0.5px -0.5px 5px rgb(213, 213, 213);
+}
+
+.planos-cards:hover{
+  box-shadow: 1px 1px 10px #000 ;
+}
+ .plano-pro:hover{
+  transform: translateY(-30px);
+  border: 5px solid #747474;
+}
+
+.planos-cards h3 {
+  font-size: 28px;
+  text-align: center;
+  color: rgb(42, 146, 236);
+  margin-bottom: 20px;
+}
+
+.planos-cards span {
+  font-size: 14px;
+  margin-bottom: 15px;
+}
+.planos-cards p {
+  font-size: 14px;
+  position: relative;
+}
+.planos-benefit li::after{
+  content: "";
+  display: block;
+  width: 100%;
+  height: 1px;
+  background: #e7e7e7;
+  position: absolute;
+}
+
+.planos-cards a {
+  display: grid;
+  text-decoration: none;
+  height: 25px;
+  background-color: #fff;
+  color: rgb(42, 146, 236);
+  font-size: 16px;
+  text-transform: uppercase;
+  padding: 10px 10px;
+  justify-content: center;
+  border: 1px solid rgb(139, 139, 139);
+  border-radius: 10px;
+  margin-top: auto;
+}
+
+.planos-cards a:hover{
+  background-color: rgb(235, 244, 252);
+}
+
+.planos-benefit {
+  display: grid;
+  list-style: none;
+  gap: 20px;
+  margin-bottom: 40px;
+}
+.planos-benefit li {
+  position: relative;
+}
+.font{
+  font-weight: 500;
+  
+}
+.plano-pro{
+  background: rgb(142, 186, 225);
+}
+.plano-pro li{
+  font-weight: 500;
+}
+.planos-benefit li:before {
+  content: "";
+  display: flex;
+  align-self: center;
+  width: 20px;
+  height: 20px;
+  background-image:url(../imagem/check.svg);
+  position: absolute;
+  left: -30px;
+  opacity: 0.4;
+}
+

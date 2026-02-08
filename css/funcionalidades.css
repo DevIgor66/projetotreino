@@ -1,0 +1,86 @@
+.funcionalidades {
+  display: grid;
+  justify-items: center;
+  font-family: "Poppins";
+  margin-top: 60px;
+}
+
+.funcionalidades span {
+  text-transform: uppercase;
+  font-size: 12px;
+  font-weight: 600;
+  color: rgb(42, 146, 236);
+}
+
+.funcionalidades p {
+  margin-top: 20px;
+  color: #747474;
+}
+
+.funcionalidades h2 {
+  color: #747474;
+}
+
+.card {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  font-family: "Poppins";
+  padding-top: 40px;
+}
+
+.card-conteudo {
+  display: grid;
+  background: aliceblue;
+  align-items: center;
+  justify-items: center;
+  padding: 30px 10px;
+  border-radius: 10px;
+  margin: 0 auto;
+  box-shadow:
+    0.5px -0.5px 5px rgb(213, 213, 213),
+    -0.5px 0.5px 5px rgb(213, 213, 213);
+  position: relative;
+}
+
+.card-conteudo p {
+  text-align: center;
+  margin-top: 20px;
+ max-width: 30ch;
+}
+.card-conteudo h3 {
+  display: inline-flex;
+}
+
+.card-conteudo::before {
+  content: " ";
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  color: rgb(42, 146, 236);
+  background-image: url(../imagem/arrow.svg);
+  background-repeat: no-repeat;
+  align-items: center;
+  left: 20px;
+  top: 76px;
+  position: absolute;
+  transform: translateX(0);
+  transition: transform 0.5s ease;
+}
+
+.card-conteudo:hover::before {
+  transform: translateX(7px);
+}
+
+.card-conteudo:hover {
+  box-shadow:
+    3px -3px 10px rgb(128, 128, 128),
+    -3px 3px 10px rgb(128, 128, 128);
+}
+
+
+.card-conteudo img{
+  display: block;
+  background: #fff;
+  padding: 10px;
+  border-radius: 20px;
+}

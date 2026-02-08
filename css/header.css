@@ -1,0 +1,35 @@
+.header-bg {
+  background-color: aliceblue;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 30px;
+  box-shadow: 0.5px -0.5px 5px rgb(213, 213, 213);
+}
+
+.header-menu {
+  display: flex;
+  gap: 40px;
+}
+
+.header-menu a {
+  background-color: #fff;
+  padding: 10px 20px;
+  border-radius: 10px;
+  text-decoration: none;
+  border: 1px solid rgb(139, 139, 139);
+}
+
+.header-menu a:hover {
+  background-color: rgb(235, 244, 252);
+}
+.header-menu li {
+  list-style: none;
+}
+
+.header-menu a {
+  color: rgb(42, 146, 236);
+}

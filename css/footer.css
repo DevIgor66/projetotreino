@@ -1,0 +1,40 @@
+.footer-bg{
+  background: aliceblue;
+  margin-top: 40px;
+  padding:  20px 0 0 0;
+  font-family: "poppins";
+}
+
+.footer-conteudo{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-items: space-between;
+}
+
+.footer-bottom{
+  display: grid;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.esquerdo{
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.direito{
+  justify-items: right;
+}
+
+.direito li{
+  display: grid;
+  gap: 20px;
+  list-style: none;
+}
+
+.direito a{
+  text-decoration: none;
+  color: #9d9d9d;
+
+}
