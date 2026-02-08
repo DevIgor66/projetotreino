@@ -1,6 +1,13 @@
-@import "/css/global.css";
+/* @import "/css/global.css";
 @import "/css/header.css";
 @import "/css/hero.css";
 @import "/css/funcionalidades.css";
 @import "/css/planos.css";
-@import "/css/footer.css";
+@import "/css/footer.css"; */
+
+@import url("global.css");
+@import url("header.css");
+@import url("hero.css");
+@import url("funcionalidades.css");
+@import url("planos.css");
+@import url("footer.css");
